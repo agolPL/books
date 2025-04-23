@@ -1,8 +1,7 @@
 package pl.acme.books.book.domain;
 
+import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
-
-import javax.annotation.PostConstruct;
 
 @RequiredArgsConstructor
 class BookRepositoryInitializer {
